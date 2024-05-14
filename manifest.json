@@ -1,0 +1,16 @@
+{
+    "name": "MyWallet",
+    "description": "Transfer funds",
+    "version": "0.00.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "favicon.png"
+    },
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "unlimitedStorage",
+        "nativeMessaging"
+    ]
+}
